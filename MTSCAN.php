@@ -146,7 +146,7 @@ echo "\033[0;32m[✅] Válido --> \033[0;33m$site \n";
 
 $livee = "Pai_ta_on.txt";//file to be saved to
     $fopen = fopen($livee, "a+"); //auto open the file
-    $fwrite = fwrite($fopen, "#-------------------------------------------------------------\n#🆗️$game essa ta bala --> $site\n#Válida para usar sni ou proxy \n#-------------------------------------------------------------\n"); //write on the file 
+    $fwrite = fwrite($fopen, "#\n#🆗️$game essa ta bala --> $site\n#Válida para usar sni ou proxy \n#----------------------------------\n"); //write on the file 
     fclose($fopen); //close the file 
     $live++;
     
